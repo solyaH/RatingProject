@@ -1,0 +1,362 @@
+D:\3 курс\проектДотНет\Rating\Rating\bin\ApplicationInsights.config
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\csc.exe
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\System.Collections.Immutable.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\System.Reflection.Metadata.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\vbc.exe
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\VBCSCompiler.exe
+D:\3 курс\проектДотНет\Rating\Rating\bin\roslyn\VBCSCompiler.exe.config
+D:\3 курс\проектДотНет\Rating\Rating\bin\Rating.dll.config
+D:\3 курс\проектДотНет\Rating\Rating\bin\Rating.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Rating.pdb
+D:\3 курс\проектДотНет\Rating\Rating\bin\CsQuery.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.Agent.Intercept.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.DependencyCollector.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.Web.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.WindowsServer.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.ApplicationInsights.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.Web.Infrastructure.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Helpers.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Mvc.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Razor.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Webpages.Deployment.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Webpages.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Webpages.Razor.dll
+D:\3 курс\проектДотНет\Rating\Rating\bin\CsQuery.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.DependencyCollector.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.Web.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.AI.WindowsServer.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.ApplicationInsights.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Razor.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Webpages.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Webpages.Deployment.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Webpages.Razor.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Helpers.xml
+D:\3 курс\проектДотНет\Rating\Rating\bin\System.Web.Mvc.xml
+D:\3 курс\проектДотНет\Rating\Rating\obj\Debug\Rating.csprojResolveAssemblyReference.cache
+D:\3 курс\проектДотНет\Rating\Rating\obj\Debug\Rating.dll
+D:\3 курс\проектДотНет\Rating\Rating\obj\Debug\Rating.pdb
+C:\Users\rbentc\Desktop\Rating\Rating\bin\ApplicationInsights.config
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\csc.exe
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\vbc.exe
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\VBCSCompiler.exe
+C:\Users\rbentc\Desktop\Rating\Rating\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Rating.dll.config
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Rating.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Rating.pdb
+C:\Users\rbentc\Desktop\Rating\Rating\bin\CsQuery.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.Web.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.ApplicationInsights.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Helpers.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Mvc.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Razor.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Webpages.Deployment.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Webpages.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Webpages.Razor.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\CsQuery.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.Web.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.ApplicationInsights.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Razor.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Webpages.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Webpages.Deployment.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Webpages.Razor.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Helpers.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\System.Web.Mvc.xml
+C:\Users\rbentc\Desktop\Rating\Rating\obj\Debug\Rating.csprojResolveAssemblyReference.cache
+C:\Users\rbentc\Desktop\Rating\Rating\obj\Debug\Rating.csproj.CoreCompileInputs.cache
+C:\Users\rbentc\Desktop\Rating\Rating\obj\Debug\Rating.csproj.CopyComplete
+C:\Users\rbentc\Desktop\Rating\Rating\obj\Debug\Rating.dll
+C:\Users\rbentc\Desktop\Rating\Rating\obj\Debug\Rating.pdb
+C:\Users\rbentc\Desktop\Rating\Rating\bin\EntityFramework.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\EntityFramework.SqlServer.dll
+C:\Users\rbentc\Desktop\Rating\Rating\bin\EntityFramework.xml
+C:\Users\rbentc\Desktop\Rating\Rating\bin\EntityFramework.SqlServer.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\ApplicationInsights.config
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\csc.exe
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\vbc.exe
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Rating.dll.config
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Rating.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Rating.pdb
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\CsQuery.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\EntityFramework.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\EntityFramework.SqlServer.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.Web.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Mono.Security.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Npgsql.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Npgsql.EntityFramework.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Helpers.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Mvc.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Razor.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Webpages.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Webpages.Razor.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\CsQuery.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\EntityFramework.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\EntityFramework.SqlServer.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.Web.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Npgsql.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\Npgsql.EntityFramework.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Razor.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Webpages.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Webpages.Razor.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Helpers.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\System.Web.Mvc.xml
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\de\Npgsql.resources.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\es\Npgsql.resources.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\fi\Npgsql.resources.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\fr\Npgsql.resources.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\ja\Npgsql.resources.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\bin\zh-CN\Npgsql.resources.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\obj\Debug\Rating.csprojResolveAssemblyReference.cache
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\obj\Debug\Rating.csproj.CoreCompileInputs.cache
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\obj\Debug\Rating.csproj.CopyComplete
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\obj\Debug\Rating.dll
+C:\Users\Adriana\Downloads\Rating-20180503T181102Z-001\Rating\Rating\obj\Debug\Rating.pdb
+C:\Users\Adriana\Desktop\Rating\Rating\bin\ApplicationInsights.config
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\csc.exe
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\vbc.exe
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adriana\Desktop\Rating\Rating\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Rating.dll.config
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Rating.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Rating.pdb
+C:\Users\Adriana\Desktop\Rating\Rating\bin\CsQuery.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\EntityFramework.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\EntityFramework.SqlServer.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.Web.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Mono.Security.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Npgsql.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Npgsql.EntityFramework.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Helpers.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Mvc.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Razor.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Webpages.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Webpages.Razor.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\CsQuery.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\EntityFramework.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\EntityFramework.SqlServer.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.Web.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Npgsql.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\Npgsql.EntityFramework.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Razor.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Webpages.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Webpages.Razor.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Helpers.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\System.Web.Mvc.xml
+C:\Users\Adriana\Desktop\Rating\Rating\bin\de\Npgsql.resources.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\es\Npgsql.resources.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\fi\Npgsql.resources.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\fr\Npgsql.resources.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\ja\Npgsql.resources.dll
+C:\Users\Adriana\Desktop\Rating\Rating\bin\zh-CN\Npgsql.resources.dll
+C:\Users\Adriana\Desktop\Rating\Rating\obj\Debug\Rating.csprojResolveAssemblyReference.cache
+C:\Users\Adriana\Desktop\Rating\Rating\obj\Debug\Rating.csproj.CoreCompileInputs.cache
+C:\Users\Adriana\Desktop\Rating\Rating\obj\Debug\Rating.csproj.CopyComplete
+C:\Users\Adriana\Desktop\Rating\Rating\obj\Debug\Rating.dll
+C:\Users\Adriana\Desktop\Rating\Rating\obj\Debug\Rating.pdb
+C:\Users\DELL\Desktop\Rating\Rating\bin\ApplicationInsights.config
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\csc.exe
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\vbc.exe
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Desktop\Rating\Rating\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Desktop\Rating\Rating\bin\Rating.dll.config
+C:\Users\DELL\Desktop\Rating\Rating\bin\Rating.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Rating.pdb
+C:\Users\DELL\Desktop\Rating\Rating\bin\CsQuery.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.Web.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Mono.Security.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Npgsql.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\Npgsql.EntityFramework.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Webpages.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\CsQuery.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.Web.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Npgsql.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\Npgsql.EntityFramework.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Webpages.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\Rating\Rating\bin\de\Npgsql.resources.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\es\Npgsql.resources.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\fi\Npgsql.resources.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\fr\Npgsql.resources.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\ja\Npgsql.resources.dll
+C:\Users\DELL\Desktop\Rating\Rating\bin\zh-CN\Npgsql.resources.dll
+C:\Users\DELL\Desktop\Rating\Rating\obj\Debug\Rating.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Rating\Rating\obj\Debug\Rating.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Rating\Rating\obj\Debug\Rating.csproj.CopyComplete
+C:\Users\DELL\Desktop\Rating\Rating\obj\Debug\Rating.dll
+C:\Users\DELL\Desktop\Rating\Rating\obj\Debug\Rating.pdb
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\ApplicationInsights.config
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\csc.exe
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\System.Collections.Immutable.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\System.Reflection.Metadata.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\vbc.exe
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\VBCSCompiler.exe
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\roslyn\VBCSCompiler.exe.config
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Rating.dll.config
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Rating.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Rating.pdb
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\CsQuery.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\EntityFramework.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\EntityFramework.SqlServer.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.Agent.Intercept.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.DependencyCollector.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.Web.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.WindowsServer.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.ApplicationInsights.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.Web.Infrastructure.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Mono.Security.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Npgsql.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Npgsql.EntityFramework.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Helpers.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Mvc.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Razor.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Webpages.Deployment.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Webpages.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Webpages.Razor.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\CsQuery.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\EntityFramework.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\EntityFramework.SqlServer.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.DependencyCollector.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.Web.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.AI.WindowsServer.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.ApplicationInsights.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Npgsql.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\Npgsql.EntityFramework.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Razor.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Webpages.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Webpages.Deployment.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Webpages.Razor.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Helpers.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\System.Web.Mvc.xml
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\de\Npgsql.resources.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\es\Npgsql.resources.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\fi\Npgsql.resources.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\fr\Npgsql.resources.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\ja\Npgsql.resources.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\bin\zh-CN\Npgsql.resources.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\obj\Debug\Rating.csprojResolveAssemblyReference.cache
+D:\3 курс\проектДотНет\New\Rating\Rating\obj\Debug\Rating.csproj.CoreCompileInputs.cache
+D:\3 курс\проектДотНет\New\Rating\Rating\obj\Debug\Rating.csproj.CopyComplete
+D:\3 курс\проектДотНет\New\Rating\Rating\obj\Debug\Rating.dll
+D:\3 курс\проектДотНет\New\Rating\Rating\obj\Debug\Rating.pdb
