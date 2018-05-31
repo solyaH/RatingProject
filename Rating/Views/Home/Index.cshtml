@@ -11,14 +11,22 @@
     </style>
 </head>
 
-<body class="bg" >
+<body class="bg">
     <div style="margin-top :4%;">
-        <button style="margin-left :10%;" class="w3-button w3-dark-grey w3-hover-indigo w3-round-large">
-            Заповнити базу даних
-        </button>
-        <button style="margin-right :10%;float:right" class="w3-button w3-dark-grey w3-hover-indigo w3-round-large">
-            Заповнити пропуски
-        </button>
+        <form action="@Url.Action("FillDataBase", "Home")" method="POST">
+            <button style="margin-left :10%;" class="w3-button w3-dark-grey w3-hover-indigo w3-round-large">
+                Заповнювати базу даних
+            </button>
+            <div style="margin-left :11%;margin-top:1%">
+                <text>Заповнити спочатку</text>
+                <input name="startNewDB" type="checkbox" value="true" checked="checked" />
+            </div>
+        </form>
+        <form action="@Url.Action("FillGap", "Home")" method="POST">
+            <button style="margin-right :10%;margin-top :-5%;float:right" class="w3-button w3-dark-grey w3-hover-indigo w3-round-large" onclick="location.href='@Url.Action("FillGap", "Home")'">
+                Заповнити пропуски
+            </button>
+        </form>
     </div>
 </body>
 </html>

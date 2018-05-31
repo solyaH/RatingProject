@@ -9,85 +9,87 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.pib)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.position)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.faculty)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.department)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.scientific_degree)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.academic_status)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.contacts)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.biography)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.interests)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.schedule)
-        </th>
-        <th></th>
-    </tr>
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.pib)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.faculty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.scientific_degree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.academic_status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.contacts)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.biography)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.interests)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.schedule)
+            </th>*@
+        </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.pib)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.position)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.faculty)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.department)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.scientific_degree)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.academic_status)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.contacts)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.biography)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.interests)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.schedule)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
-        </td>
-    </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pib)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.position)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.faculty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.department)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.scientific_degree)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.academic_status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.contacts)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.biography)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.interests)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.schedule)
+                </td>*@
+                @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                </td>*@
+            </tr>
+        }
 
-</table>
+    </table>
+</div>

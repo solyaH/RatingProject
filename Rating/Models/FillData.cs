@@ -4,13 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 
 namespace Rating.Models
 {
     public class FillData
     {
-        public FillData()
+        bool startNewDB;
+        public FillData(bool startNewDB)
         {
+            this.startNewDB = startNewDB;
+
             string facultyListUrl = @"http://www.lnu.edu.ua/about/faculties/";
             string collegeListUrl = @"http://www.lnu.edu.ua/about/colleges/";
 
@@ -114,73 +118,87 @@ namespace Rating.Models
 
         public void FillStaffInfoDict(Dictionary<string, string> facultyCollegeUrlDict)
         {
-            //string facultyCollegeUrl = "http://intrel.lnu.edu.ua";
-            ////http://ami.lnu.edu.ua/about/staff
-            //< provider invariantName = "System.Data.SqlClient" type = "System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
-            //< add name = "IndividualContext" providerName = "Npgsql" connectionString = "Server=127.0.0.1;User Id=postgres;Password=mydell2017;Port=5432;Database=Rating;" />
 
             string connStr = "Host = localhost; Username = postgres; Password = mydell2017; Database = Rating; ";
             string LastFaculty = "";
             string LastDepartment = "";
-            //string LastLink = "";
+            int startFacultyIndex = 0;
 
-            using (var con = new NpgsqlConnection(connStr))
+            if (!startNewDB)
             {
-                con.Open();
-                NpgsqlCommand comd = con.CreateCommand();
-                //comd.CommandText = "SELECT to_regclass('dbo.\"Professors\"');";
-                //bool exist = comd.ExecuteScalar() == null ? true : false;
-                //if (exist)
-                //{
-                NpgsqlCommand cmd = con.CreateCommand();
-                cmd.CommandText = "Select department,faculty from dbo.\"Professors\" order by id desc limit 1";
-                using (NpgsqlDataReader rdr = cmd.ExecuteReader())
+                using (var con = new NpgsqlConnection(connStr))
                 {
-                    while (rdr.Read())
+                    con.Open();
+                    NpgsqlCommand comd = con.CreateCommand();
+                    //comd.CommandText = "SELECT to_regclass('dbo.\"Professors\"');";
+                    //bool exist = comd.ExecuteScalar() == null ? true : false;
+                    //if (exist)
+                    //{
+                    NpgsqlCommand cmd = con.CreateCommand();
+                    cmd.CommandText = "Select department,faculty from dbo.\"Professors\" order by id desc limit 1";
+                    using (NpgsqlDataReader rdr = cmd.ExecuteReader())
                     {
-                        LastDepartment = rdr.GetString(0).ToLower();
-                        LastFaculty = rdr.GetString(1).ToLower();
-                        //LastLink = rdr.GetString(2);
+                        while (rdr.Read())
+                        {
+                            LastDepartment = rdr.GetString(0).ToLower();
+                            LastFaculty = rdr.GetString(1).ToLower();
+                        }
                     }
+                    //}
                 }
-                //}
+                startFacultyIndex = facultyCollegeUrlDict.Keys.ToList().IndexOf(LastFaculty);
             }
 
-            int startFacultyIndex = facultyCollegeUrlDict.Keys.ToList().IndexOf(LastFaculty);
 
-            foreach (string facultyCollegeUrl in facultyCollegeUrlDict.Values.Skip(startFacultyIndex))
+            bool restart;
+            do
             {
-                string requestUrl = (facultyCollegeUrl + "/about/staff");
-                Dictionary<string, List<string>> facultyStaffUrl = GetFacultyStaffUrlDict(RequestGetter.GetRequestByUrl(requestUrl));
-                int startStaffIndex = facultyStaffUrl.Keys.ToList().IndexOf("кафедра " + LastDepartment);
-                if (startStaffIndex == -1)
+                restart = false;
+                try
                 {
-                    startStaffIndex = facultyStaffUrl.Keys.ToList().IndexOf(LastDepartment.Replace("лабораторії ", ""));
-                }
-                if (startStaffIndex == -1)
-                {
-                    startStaffIndex = facultyStaffUrl.Keys.ToList().IndexOf(LastDepartment.Replace("лабораторії", "лабораторія"));
-                }
-
-
-                using (var db = new IndividualContext())
-                {
-                    foreach (KeyValuePair<string, List<string>> department in facultyStaffUrl.Skip(startStaffIndex + 1))
+                    foreach (string facultyCollegeUrl in facultyCollegeUrlDict.Values.Skip(startFacultyIndex))
                     {
-                        List<Professor> departmentStaff = new List<Professor>();
-                        foreach (string lecturerUrl in department.Value)
+                        string requestUrl = (facultyCollegeUrl + "/about/staff");
+                        Dictionary<string, List<string>> facultyStaffUrl = GetFacultyStaffUrlDict(RequestGetter.GetRequestByUrl(requestUrl));
+                        int startStaffIndex = -1;
+                        if (!startNewDB)
                         {
-                            Professor newProfessor = new Professor();
-                            newProfessor.FillProfessorInfo(RequestGetter.GetRequestByUrl(lecturerUrl));
-                            departmentStaff.Add(newProfessor);
-                            db.Professors.Add(newProfessor);
+                            startStaffIndex = facultyStaffUrl.Keys.ToList().IndexOf("кафедра " + LastDepartment);
+                            if (startStaffIndex == -1)
+                            {
+                                startStaffIndex = facultyStaffUrl.Keys.ToList().IndexOf(LastDepartment.Replace("лабораторії ", ""));
+                            }
+                            if (startStaffIndex == -1)
+                            {
+                                startStaffIndex = facultyStaffUrl.Keys.ToList().IndexOf(LastDepartment.Replace("лабораторії", "лабораторія"));
+                            }
                         }
 
-                        //facultyStaffDict.Add(department.Key, departmentStaff);//title-get department title
-                        db.SaveChanges();
+
+                        using (var db = new IndividualContext())
+                        {
+                            foreach (KeyValuePair<string, List<string>> department in facultyStaffUrl.Skip(startStaffIndex + 1))
+                            {
+                                List<Professor> departmentStaff = new List<Professor>();
+                                foreach (string lecturerUrl in department.Value)
+                                {
+                                    Professor newProfessor = new Professor();
+                                    newProfessor.FillProfessorInfo(RequestGetter.GetRequestByUrl(lecturerUrl));
+                                    departmentStaff.Add(newProfessor);
+                                    db.Professors.Add(newProfessor);
+                                }
+
+                                //facultyStaffDict.Add(department.Key, departmentStaff);//title-get department title
+                                db.SaveChanges();
+                            }
+                        }
                     }
                 }
-            }
+                catch (HttpResponseException)
+                {
+                    restart = true;
+                }
+            } while (restart);
         }
 
         public void FillDepartmentsInfoDict(Dictionary<string, string> facultyCollegeUrlDict)

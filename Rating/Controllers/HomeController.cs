@@ -26,5 +26,17 @@ namespace Rating.Controllers
             }
             
         }
+
+        public ActionResult FillGap()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult FillDataBase(FormCollection collection)
+        {
+            FillData fd = new FillData(Convert.ToBoolean(collection["startNewDB"]));
+            return View("ShowData");
+        }
     }
 }
