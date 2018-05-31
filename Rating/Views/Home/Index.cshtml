@@ -19,11 +19,11 @@
             </button>
             <div style="margin-left :11%;margin-top:1%">
                 <text>Заповнити спочатку</text>
-                <input name="startNewDB" type="checkbox" value="true" checked="checked" />
+                <input name="startNewDB" type="checkbox" value="false" />
             </div>
         </form>
         <form action="@Url.Action("FillGap", "Home")" method="POST">
-            <button style="margin-right :10%;margin-top :-5%;float:right" class="w3-button w3-dark-grey w3-hover-indigo w3-round-large" onclick="location.href='@Url.Action("FillGap", "Home")'">
+            <button style="margin-right :10%;margin-top :-5%;float:right" class="w3-button w3-dark-grey w3-hover-indigo w3-round-large" >
                 Заповнити пропуски
             </button>
         </form>

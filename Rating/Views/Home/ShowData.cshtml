@@ -4,14 +4,9 @@
     ViewBag.Title = "ShowData";
 }
 
-<h2>ShowData</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <div>
-    <table class="table">
-        <tr>
+    <table class="table" >
+        <tr class="w3-indigo">
             <th>
                 @Html.DisplayNameFor(model => model.pib)
             </th>
@@ -37,58 +32,75 @@
                 @Html.DisplayNameFor(model => model.contacts)
             </th>
             @*<th>
-                @Html.DisplayNameFor(model => model.biography)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.interests)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.schedule)
-            </th>*@
+                    @Html.DisplayNameFor(model => model.biography)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.interests)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.schedule)
+                </th>*@
         </tr>
 
         @foreach (var item in Model)
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.pib)
+                    <a  href=@item.link>
+                        @Html.DisplayFor(modelItem => item.pib)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.position)
+                    <a href=@item.link>
+                        @Html.DisplayFor(modelItem => item.position)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.faculty)
+                    <a href=@item.link>
+                        @Html.DisplayFor(modelItem => item.faculty)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.department)
+                    <a href=@item.link>
+                        @Html.DisplayFor(modelItem => item.department)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.scientific_degree)
+                    <a href=@item.link>
+                        @Html.DisplayFor(modelItem => item.scientific_degree)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.academic_status)
+                    <a href=@item.link>
+                        @Html.DisplayFor(modelItem => item.academic_status)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.email)
+                    <a href=@item.link>
+                        @Html.DisplayFor(modelItem => item.email)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.contacts)
+                    <a href=@item.link>
+                        @Html.DisplayFor(modelItem => item.contacts)
+                    </a>
                 </td>
                 @*<td>
-                    @Html.DisplayFor(modelItem => item.biography)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.interests)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.schedule)
-                </td>*@
+                        @Html.DisplayFor(modelItem => item.biography)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.interests)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.schedule)
+                    </td>*@
                 @*<td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.id })
-                </td>*@
+                        @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                    </td>*@
             </tr>
+
         }
 
     </table>

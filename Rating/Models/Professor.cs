@@ -9,6 +9,7 @@ namespace Rating.Models
     public class Professor
     {
         public int id { get; set; }
+        public string link { get; set; }
         public string pib { get; set; }
         public string position { get; set; }
         public string faculty { get; set; }

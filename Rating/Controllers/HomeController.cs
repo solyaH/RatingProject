@@ -27,15 +27,19 @@ namespace Rating.Controllers
             
         }
 
+        [HttpPost]
         public ActionResult FillGap()
         {
-            return View();
+            FillData fd = new FillData();
+            fd.FillGapsInBD();
+            return View("ShowData");
         }
 
         [HttpPost]
         public ActionResult FillDataBase(FormCollection collection)
         {
             FillData fd = new FillData(Convert.ToBoolean(collection["startNewDB"]));
+            fd.FillStaffBD();
             return View("ShowData");
         }
     }

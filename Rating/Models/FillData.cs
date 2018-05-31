@@ -11,14 +11,17 @@ namespace Rating.Models
     public class FillData
     {
         bool startNewDB;
-        public FillData(bool startNewDB)
+        string connStr = "Host = localhost; Username = postgres; Password = password; Database = Rating; ";
+        Dictionary<string, string> facultyCollegeUrlDict;
+
+        public FillData(bool startNewDB = false)
         {
             this.startNewDB = startNewDB;
 
             string facultyListUrl = @"http://www.lnu.edu.ua/about/faculties/";
             string collegeListUrl = @"http://www.lnu.edu.ua/about/colleges/";
 
-            Dictionary<string, string> facultyCollegeUrlDict = GetFacultyCollegeUrlDict(RequestGetter.GetRequestByUrl(facultyListUrl));
+            facultyCollegeUrlDict = GetFacultyCollegeUrlDict(RequestGetter.GetRequestByUrl(facultyListUrl));
             foreach (var kvp in GetFacultyCollegeUrlDict(RequestGetter.GetRequestByUrl(collegeListUrl)))
                 facultyCollegeUrlDict.Add(kvp.Key, kvp.Value);
 
@@ -31,7 +34,6 @@ namespace Rating.Models
             // Dictionary<string, List<string>> facultyStaffUrlDict = GetFacultyStaffUrlDict(GetRequestByUrl(url));
             //Dictionary<string, string> departmentUrlDict = GetDepartmnetUrlDict(GetRequestByUrl(url1));
 
-            FillStaffInfoDict(facultyCollegeUrlDict);
             //FillDepartmentsInfoDict(facultyCollegeUrlDict);
         }
 
@@ -116,10 +118,45 @@ namespace Rating.Models
             return facultyStaffUrl;
         }
 
-        public void FillStaffInfoDict(Dictionary<string, string> facultyCollegeUrlDict)
+        public void FillGapsInBD()
         {
+            List<string> linksToFill = new List<string>();
+            using (var con = new NpgsqlConnection(connStr))
+            {
+                con.Open();
+                NpgsqlCommand comd = con.CreateCommand();
+                //comd.CommandText = "SELECT to_regclass('dbo.\"Professors\"');";
+                //bool exist = comd.ExecuteScalar() == null ? true : false;
+                //if (exist)
+                //{
+                NpgsqlCommand cmd = con.CreateCommand();
 
-            string connStr = "Host = localhost; Username = postgres; Password = mydell2017; Database = Rating; ";
+                cmd.CommandText = "Select link from dbo.\"Professors\" where pib =''";
+                using (NpgsqlDataReader rdr = cmd.ExecuteReader())
+                {
+                    while (rdr.Read())
+                    {
+                        linksToFill.Add(rdr.GetString(0));
+                    }
+                }
+            }
+
+            //using (var db = new IndividualContext())
+            //{
+            //    foreach (string lecturerUrl in linksToFill)
+            //    {
+            //        Professor newProfessor = new Professor();
+            //        newProfessor.FillProfessorInfo(RequestGetter.GetRequestByUrl(lecturerUrl));
+            //        newProfessor.link = lecturerUrl;
+            //        db.Professors.Add(newProfessor);
+            //        db.SaveChanges();
+            //    }
+            //}
+        }
+
+
+        public void FillStaffBD()
+        {
             string LastFaculty = "";
             string LastDepartment = "";
             int startFacultyIndex = 0;
@@ -148,6 +185,17 @@ namespace Rating.Models
                 }
                 startFacultyIndex = facultyCollegeUrlDict.Keys.ToList().IndexOf(LastFaculty);
             }
+            //else{
+            //    using (var con = new NpgsqlConnection(connStr))
+            //    {
+            //        con.Open();
+            //        NpgsqlCommand comd = con.CreateCommand();
+
+            //        NpgsqlCommand cmd = con.CreateCommand();
+            //        cmd.CommandText = "delete from dbo.\"Professors\"";
+            //        cmd.ExecuteNonQuery();
+            //    }
+            //}
 
 
             bool restart;
@@ -184,7 +232,8 @@ namespace Rating.Models
                                 {
                                     Professor newProfessor = new Professor();
                                     newProfessor.FillProfessorInfo(RequestGetter.GetRequestByUrl(lecturerUrl));
-                                    departmentStaff.Add(newProfessor);
+                                    newProfessor.link = lecturerUrl;
+                                    //departmentStaff.Add(newProfessor);
                                     db.Professors.Add(newProfessor);
                                 }
 
@@ -194,7 +243,7 @@ namespace Rating.Models
                         }
                     }
                 }
-                catch (HttpResponseException)
+                catch (System.Net.WebException)
                 {
                     restart = true;
                 }
