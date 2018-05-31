@@ -19,7 +19,12 @@ namespace Rating.Controllers
         public ActionResult ShowData()
         {
             //FillData fd = new FillData();
-            return View();
+            using ( var context = new IndividualContext())
+            {
+                var allProff = context.Professors.ToList();
+                return View(allProff);
+            }
+            
         }
     }
 }
