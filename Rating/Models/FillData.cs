@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using System.Data.Entity;
 
 namespace Rating.Models
 {
@@ -141,17 +142,18 @@ namespace Rating.Models
                 }
             }
 
-            //using (var db = new IndividualContext())
-            //{
-            //    foreach (string lecturerUrl in linksToFill)
-            //    {
-            //        Professor newProfessor = new Professor();
-            //        newProfessor.FillProfessorInfo(RequestGetter.GetRequestByUrl(lecturerUrl));
-            //        newProfessor.link = lecturerUrl;
-            //        db.Professors.Add(newProfessor);
-            //        db.SaveChanges();
-            //    }
-            //}
+            using (var db = new IndividualContext())
+            {
+                foreach (string lecturerUrl in linksToFill)
+                {
+                    Professor newProfessor = new Professor();
+                    newProfessor.FillProfessorInfo(RequestGetter.GetRequestByUrl(lecturerUrl));
+                    newProfessor.link = lecturerUrl;
+                    db.Professors.Add(newProfessor);
+                    db.Entry(newProfessor).State = EntityState.Modified;
+                    db.SaveChanges();
+                }
+            }
         }
 
 
